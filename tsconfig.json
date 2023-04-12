@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -10,7 +14,6 @@
     "alwaysStrict": true,
     "strictNullChecks": true,
     "noUncheckedIndexedAccess": true,
-
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -18,34 +21,57 @@
     "noUnusedParameters": true,
     "allowUnreachableCode": false,
     "noFallthroughCasesInSwitch": true,
-
     "target": "es5",
     "outDir": "out",
     "declaration": true,
     "sourceMap": true,
-
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "allowJs": false,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-
     "jsx": "preserve",
     "noEmit": true,
     "isolatedModules": true,
     "incremental": true,
-
     "baseUrl": ".",
     "paths": {
-      "@pages/*": ["pages/*"],
-      "@components/*": ["components/*"],
-      "@hooks/*": ["hooks/*"],
-      "@interfaces/*": ["interfaces/*"],
-      "@libs/*": ["libs/*"],
-      "@layouts/*": ["layouts/*"],
-      "@styles/*": ["styles/*"]
-    }
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ],
+      "@interfaces/*": [
+        "interfaces/*"
+      ],
+      "@libs/*": [
+        "libs/*"
+      ],
+      "@layouts/*": [
+        "layouts/*"
+      ],
+      "@styles/*": [
+        "styles/*"
+      ]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_document.tsx"],
-  "exclude": ["./out/**/*", "./node_modules/**/*"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "./out/**/*",
+    "./node_modules/**/*"
+  ]
 }

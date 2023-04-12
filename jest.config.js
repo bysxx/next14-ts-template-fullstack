@@ -14,7 +14,7 @@ const customJestConfig = {
   },
   setupFilesAfterEnv: ['./jest.setup.js'],
   clearMocks: true,
-  collectCoverage: true,
+  // collectCoverage: true,
   collectCoverageFrom: [
     './pages/**/*.{js,jsx,ts,tsx}',
     './components/**/*.{js,jsx,ts,tsx}',
