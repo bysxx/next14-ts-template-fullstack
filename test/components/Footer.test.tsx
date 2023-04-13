@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import Footer from '../../components/Layout/Footer';
+import Footer from '../../ui/footer';
 import Wrapper from '../TestWrapper';
 
 describe('Footer Test', () => {

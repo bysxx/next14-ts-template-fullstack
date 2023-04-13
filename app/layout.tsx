@@ -1,4 +1,7 @@
-import './globals.css';
+import '@styles/global.css';
+
+import Footer from '@ui/footer';
+import GlobalNav from '@ui/global-nav';
 
 export const metadata = {
   title: 'Next13 TypeScript Template',
@@ -8,7 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body>
+        <GlobalNav />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

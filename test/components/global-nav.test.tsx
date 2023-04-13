@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 
-import NavBar from '../../components/Layout/NavBar';
+import NavBar from '../../ui/global-nav';
 import Wrapper from '../TestWrapper';
 
 describe('Navbar Test', () => {
@@ -11,6 +11,6 @@ describe('Navbar Test', () => {
       </Wrapper>,
     );
 
-    await screen.findByText(/NavBar/);
+    await screen.findByText(/GlobalNav/);
   });
 });

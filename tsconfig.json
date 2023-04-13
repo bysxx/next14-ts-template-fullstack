@@ -39,8 +39,8 @@
       "@pages/*": [
         "pages/*"
       ],
-      "@components/*": [
-        "components/*"
+      "@ui/*": [
+        "ui/*"
       ],
       "@hooks/*": [
         "hooks/*"
