@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+// Custom hook Example
 const useCustomHook = () => {
   const [data, setData] = useState<string | null>(null);
   const isDataExist = () => {

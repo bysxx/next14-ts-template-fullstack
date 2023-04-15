@@ -1,10 +1,6 @@
 {
   "compilerOptions": {
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -36,27 +32,13 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@pages/*": [
-        "pages/*"
-      ],
-      "@ui/*": [
-        "ui/*"
-      ],
-      "@hooks/*": [
-        "hooks/*"
-      ],
-      "@interfaces/*": [
-        "interfaces/*"
-      ],
-      "@libs/*": [
-        "libs/*"
-      ],
-      "@layouts/*": [
-        "layouts/*"
-      ],
-      "@styles/*": [
-        "styles/*"
-      ]
+      "@pages/*": ["pages/*"],
+      "@ui/*": ["ui/*"],
+      "@hooks/*": ["hooks/*"],
+      "@interfaces/*": ["interfaces/*"],
+      "@libs/*": ["libs/*"],
+      "@layouts/*": ["layouts/*"],
+      "@styles/*": ["styles/*"]
     },
     "plugins": [
       {
@@ -64,14 +46,6 @@
       }
     ]
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
-  "exclude": [
-    "./out/**/*",
-    "./node_modules/**/*"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["./out/**/*", "./node_modules/**/*"]
 }
