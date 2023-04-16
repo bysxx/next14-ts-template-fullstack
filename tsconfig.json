@@ -32,13 +32,13 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@pages/*": ["pages/*"],
-      "@ui/*": ["ui/*"],
-      "@hooks/*": ["hooks/*"],
-      "@interfaces/*": ["interfaces/*"],
-      "@libs/*": ["libs/*"],
-      "@layouts/*": ["layouts/*"],
-      "@styles/*": ["styles/*"]
+      "@api/*": ["app/_api/*"],
+      "@hooks/*": ["app/_hooks/*"],
+      "@interfaces/*": ["app/_interfaces/*"],
+      "@libs/*": ["app/_libs/*"],
+      "@stores/*": ["app/_stores/*"],
+      "@styles/*": ["app/_styles/*"],
+      "@ui/*": ["app/_ui/*"],
     },
     "plugins": [
       {

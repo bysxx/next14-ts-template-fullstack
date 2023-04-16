@@ -1,7 +1,7 @@
 import '@styles/global.css';
 
-import Footer from '@ui/footer';
-import GlobalNav from '@ui/global-nav';
+import Footer from 'app/_ui/footer';
+import GlobalNav from 'app/_ui/global-nav';
 
 export const metadata = {
   title: 'Next13 TypeScript Template',

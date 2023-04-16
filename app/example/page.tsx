@@ -1,13 +1,17 @@
-import Item from './item';
+import ClientComponent from './components/client-component';
+import DynamicLinkBox from './components/dynamic-link-box';
 
 export default function ExamplePage() {
   return (
     <main className="flex h-screen flex-col items-center p-8">
-      <h1 className="mb-4 text-3xl">Example</h1>
-      <ul className="flex flex-col gap-y-4">
-        <Item id="1" />
-        <Item id="2" />
-      </ul>
+      <h1 className="mb-4 text-3xl">Example Components</h1>
+      <div className="flex gap-x-4">
+        <ul className="flex flex-col gap-y-4">
+          <DynamicLinkBox id="1" />
+          <DynamicLinkBox id="2" />
+        </ul>
+        <ClientComponent />
+      </div>
     </main>
   );
 }
