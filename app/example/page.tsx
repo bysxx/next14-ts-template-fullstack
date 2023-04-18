@@ -3,7 +3,7 @@ import DynamicLinkBox from './components/dynamic-link-box';
 
 export default function ExamplePage() {
   return (
-    <main className="flex h-screen flex-col items-center p-8">
+    <main className="flex min-h-screen flex-col items-center p-8">
       <h1 className="mb-4 text-3xl">Example Components</h1>
       <div className="flex gap-x-4">
         <ul className="flex flex-col gap-y-4">

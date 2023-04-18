@@ -38,7 +38,7 @@
       "@libs/*": ["app/_libs/*"],
       "@stores/*": ["app/_stores/*"],
       "@styles/*": ["app/_styles/*"],
-      "@ui/*": ["app/_ui/*"],
+      "@components/*": ["app/_components/*"],
     },
     "plugins": [
       {
