@@ -9,7 +9,22 @@
 ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
 
-## Yarn Berry 
-1. npm install yarn -g
-2. yarn set version berry
-3. yarn
+## How to start
+
+### Yarn Berry 
+```
+npm install yarn -g
+yarn set version berry
+yarn
+```
+
+### Projects Run(dev)
+```
+yarn dev
+```
+
+## Example
+- [Dynamic Routes](https://github.com/bysxx/next-ts-template-tailwind/blob/master/app/example/%5Bid%5D/page.tsx)
+- [Client Component](https://github.com/bysxx/next-ts-template-tailwind/blob/master/app/example/components/client-component.tsx)
+- [Streaming](https://github.com/bysxx/next-ts-template-tailwind/blob/master/app/example/components/fetching-component.tsx)
+- Soon...
