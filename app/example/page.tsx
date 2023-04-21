@@ -1,5 +1,9 @@
+import Loading from '@components/ui/loading';
+import { Suspense } from 'react';
+
 import ClientComponent from './components/client-component';
 import DynamicLinkBox from './components/dynamic-link-box';
+import FetchingComponent from './components/fetching-component';
 
 export default function ExamplePage() {
   return (
@@ -10,7 +14,13 @@ export default function ExamplePage() {
           <DynamicLinkBox id="1" />
           <DynamicLinkBox id="2" />
         </ul>
+
         <ClientComponent />
+
+        <Suspense fallback={<Loading />}>
+          {/* @ts-expect-error Async Server Component */}
+          <FetchingComponent />
+        </Suspense>
       </div>
     </main>
   );
