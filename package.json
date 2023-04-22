@@ -1,7 +1,13 @@
 {
-  "name": "next-ts-template",
+  "name": "next-ts-template-bysxx",
   "version": "0.1.0",
-  "private": true,
+  "description": "An example boilerplate project for next13 + typescript",
+  "author": "bysxx <0415white@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bysxx/next-ts-template-tailwind"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
