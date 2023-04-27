@@ -4,7 +4,7 @@ interface Props {
   id: string;
 }
 
-export default function ExampleItem({ id }: Props) {
+export default function DynamicLinkBox({ id }: Props) {
   return (
     <li className="rounded-md border border-gray-300 p-4 shadow-md hover:shadow-lg">
       <Link href={`/example/${id}`}>
