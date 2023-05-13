@@ -1,8 +1,10 @@
-// eslint-disable-next-line
+import type { IExample } from '@interfaces/example';
 import { NextResponse } from 'next/server';
 
-export async function GET() {
-  // eslint-disable-next-line
-  await new Promise((resolve) => setTimeout(resolve, 1000));
-  return NextResponse.json('hello world!');
+export function GET() {
+  const data: IExample = {
+    example: 'hello world!',
+  };
+
+  return NextResponse.json(data);
 }
