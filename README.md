@@ -1,4 +1,4 @@
-# Next13 + TypeScript Template
+# Next.js 13 + TypeScript Template
 
 ## Code With
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
@@ -24,8 +24,8 @@ yarn dev
 ```
 
 ## Example
-- [Dynamic Routes](https://github.com/bysxx/next-ts-template-tailwind/blob/master/app/example/%5Bid%5D/page.tsx)
 - [Client Component](https://github.com/bysxx/next-ts-template-tailwind/blob/master/app/example/components/client-component.tsx)
 - [Streaming](https://github.com/bysxx/next-ts-template-tailwind/blob/master/app/example/components/fetching-component.tsx)
-- [API](https://github.com/bysxx/next13-ts-template-tailwind/tree/master/app/api/example)
+- [API (fullstack)](https://github.com/bysxx/next13-ts-template-tailwind/tree/master/app/api/example)
+- [Dynamic Routes](https://github.com/bysxx/next-ts-template-tailwind/blob/master/app/example/%5Bid%5D/page.tsx)
 - Soon...
