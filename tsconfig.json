@@ -33,13 +33,13 @@
     "baseUrl": ".",
     "paths": {
       "@api/*": ["app/api/*"],
-      "@requests/*": ["app/_requests/*"],
-      "@hooks/*": ["app/_hooks/*"],
-      "@interfaces/*": ["app/_interfaces/*"],
-      "@libs/*": ["app/_libs/*"],
-      "@stores/*": ["app/_stores/*"],
-      "@styles/*": ["app/_styles/*"],
-      "@components/*": ["app/_components/*"]
+      "@requests/*": ["app/common/requests/*"],
+      "@hooks/*": ["app/common/hooks/*"],
+      "@interfaces/*": ["app/common/interfaces/*"],
+      "@libs/*": ["app/common/libs/*"],
+      "@stores/*": ["app/common/stores/*"],
+      "@styles/*": ["app/common/styles/*"],
+      "@components/*": ["app/common/components/*"]
     },
     "plugins": [
       {

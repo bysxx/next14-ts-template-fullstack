@@ -1,6 +1,6 @@
 'use client';
 
-import { getExample } from '@requests/example';
+import { getExample } from 'app/common/requests/example';
 import { useState } from 'react';
 
 export default function ClientComponent() {
