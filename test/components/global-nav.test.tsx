@@ -11,6 +11,6 @@ describe('Navbar Test', () => {
       </Wrapper>,
     );
 
-    await screen.findByText(/Home/);
+    await screen.findByText(/Next/);
   });
 });
