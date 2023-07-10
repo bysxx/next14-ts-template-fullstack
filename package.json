@@ -1,14 +1,14 @@
 {
-  "name": "next-ts-template-bysxx",
+  "name": "next-ts-template-fullstack-bysxx",
   "version": "0.1.0",
   "engines": {
     "node": ">=16.0.0"
   },
-  "description": "An example boilerplate project for next13 + typescript",
+  "description": "Fullstack Next.js + TypeScript Template",
   "author": "bysxx <0415white@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bysxx/next-ts-template-tailwind"
+    "url": "https://github.com/bysxx/next13-ts-template-fullstack"
   },
   "license": "MIT",
   "scripts": {
