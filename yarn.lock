@@ -5574,9 +5574,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next-ts-template-bysxx@workspace:.":
+"next-ts-template-fullstack-bysxx@workspace:.":
   version: 0.0.0-use.local
-  resolution: "next-ts-template-bysxx@workspace:."
+  resolution: "next-ts-template-fullstack-bysxx@workspace:."
   dependencies:
     "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^13.4.0
