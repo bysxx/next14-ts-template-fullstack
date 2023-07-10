@@ -1,6 +1,9 @@
 {
   "name": "next-ts-template-bysxx",
   "version": "0.1.0",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "description": "An example boilerplate project for next13 + typescript",
   "author": "bysxx <0415white@gmail.com>",
   "repository": {
@@ -18,13 +21,13 @@
     "test": "jest"
   },
   "dependencies": {
-    "autoprefixer": "latest",
+    "autoprefixer": "10.4.14",
     "axios": "^0.27.2",
     "classnames": "^2.3.2",
-    "next": "latest",
+    "next": "13.4.9",
     "postcss": "^8.4.21",
-    "react": "latest",
-    "react-dom": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-query": "^3.39.1",
     "tailwindcss": "3.3.1",
@@ -42,7 +45,7 @@
     "eslint": "8.17.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-config-next": "latest",
+    "eslint-config-next": "13.4.9",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^27.1.6",

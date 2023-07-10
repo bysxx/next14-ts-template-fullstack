@@ -11,6 +11,8 @@
 
 ## How to start
 
+**Node.js version 16 or higher is required.**
+
 ### Yarn Berry 
 ```
 npm install yarn -g
@@ -21,6 +23,12 @@ yarn
 ### Projects Run(dev)
 ```
 yarn dev
+```
+
+### Projects Run(product)
+```
+yarn build
+yarn start
 ```
 
 ## Example
