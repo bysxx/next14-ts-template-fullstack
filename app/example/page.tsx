@@ -1,4 +1,5 @@
-import Loading from '@components/ui/loading';
+import Loading from 'app/common/components/ui/loading';
+import Link from 'next/link';
 import { Suspense } from 'react';
 
 import ClientComponent from './components/client-component';
@@ -24,6 +25,10 @@ export default function ExamplePage() {
         </Suspense>
 
         <ImageComponent />
+
+        <Link className="border p-4" href="/example/query-string?hello=world&code=clean">
+          QueryString Example
+        </Link>
       </div>
     </main>
   );
