@@ -1,4 +1,7 @@
-import { getData } from '@api/example/model';
+export async function getData() {
+  // eslint-disable-next-line
+  return await new Promise((resolve) => setTimeout(resolve, 1000)).then((_) => 'Success!');
+}
 
 export default async function FetchingComponent() {
   const data = await getData();

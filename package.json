@@ -24,6 +24,7 @@
     "autoprefixer": "10.4.14",
     "axios": "^0.27.2",
     "classnames": "^2.3.2",
+    "mongoose": "^7.3.4",
     "next": "13.4.9",
     "postcss": "^8.4.21",
     "react": "18.2.0",
