@@ -1,3 +1,4 @@
 export interface IExample {
-  example: string;
+  title: string;
+  description: string;
 }
