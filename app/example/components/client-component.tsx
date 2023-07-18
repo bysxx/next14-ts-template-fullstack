@@ -16,7 +16,7 @@ export default function ClientComponent() {
       </button>
       <button
         className="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
-        onClick={() => getExample().then((data) => alert(data.example))}
+        onClick={() => getExample().then((data) => alert(data.title))}
       >
         Get Request Test
       </button>
