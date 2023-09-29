@@ -3,9 +3,6 @@ const nextConfig = {
   eslint: {
     dirs: ['.'],
   },
-  experimental: {
-    appDir: true,
-  },
   reactStrictMode: true,
   compiler: {
     removeConsole: false,
