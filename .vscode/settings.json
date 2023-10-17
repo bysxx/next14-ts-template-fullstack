@@ -7,7 +7,10 @@
   },
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.formatOnSave": false,
-  "editor.codeActionsOnSave": ["source.addMissingImports", "source.fixAll.eslint"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.addMissingImports": true
+  },
   "jest.autoRun": {
     "watch": false // Start the jest with the watch flag
     // "onStartup": ["all-tests"] // Run all tests upon project launch

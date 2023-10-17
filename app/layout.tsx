@@ -2,6 +2,9 @@ import '@styles/global.css';
 
 import Footer from '@components/ui/footer';
 import GlobalNav from '@components/ui/global-nav';
+import { Raleway } from 'next/font/google';
+
+const raleway = Raleway({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Next13 TypeScript Template',
@@ -11,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
-      <body>
+      <body className={raleway.className}>
         <GlobalNav />
         {children}
         <Footer />
