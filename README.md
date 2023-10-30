@@ -1,4 +1,4 @@
-# Fullstack Next.js 13 + TypeScript + MongoDB Template
+# Fullstack Next.js 14 + TypeScript + MongoDB Template
 
 ## Code With
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
@@ -11,7 +11,7 @@
 
 ## How to start
 
-**Node.js version 16 or higher is required.**
+**Node.js version 18 or higher is required.**
 
 ### Yarn Berry 
 ```
@@ -36,4 +36,5 @@ yarn start
 - [Streaming](https://github.com/bysxx/next-ts-template-tailwind/blob/master/app/example/components/fetching-component.tsx)
 - [API (fullstack)](https://github.com/bysxx/next13-ts-template-tailwind/tree/master/app/api/example)
 - [Dynamic Routes](https://github.com/bysxx/next-ts-template-tailwind/blob/master/app/example/%5Bid%5D/page.tsx)
+- [Server Actions](https://github.com/bysxx/next14-ts-template-fullstack/blob/master/app/example/server-actions/page.tsx)
 - Soon...
