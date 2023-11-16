@@ -32,9 +32,9 @@ yarn start
 ```
 
 ## Example
-- [Client Component](https://github.com/bysxx/next-ts-template-tailwind/blob/master/app/example/components/client-component.tsx)
-- [Streaming](https://github.com/bysxx/next-ts-template-tailwind/blob/master/app/example/components/fetching-component.tsx)
-- [API (fullstack)](https://github.com/bysxx/next13-ts-template-tailwind/tree/master/app/api/example)
-- [Dynamic Routes](https://github.com/bysxx/next-ts-template-tailwind/blob/master/app/example/%5Bid%5D/page.tsx)
-- [Server Actions](https://github.com/bysxx/next14-ts-template-fullstack/blob/master/app/example/server-actions/page.tsx)
+- [dynamic](https://github.com/bysxx/next14-ts-template-fullstack/blob/master/app/example/dynamic/%5Bid%5D/page.tsx)
+- [fetching](https://github.com/bysxx/next14-ts-template-fullstack/tree/master/app/example/fetching)
+- [query-string](https://github.com/bysxx/next14-ts-template-fullstack/blob/master/app/example/query-string/page.tsx)
+- [react-query](https://github.com/bysxx/next14-ts-template-fullstack/tree/master/app/example/react-query)
+- [server-actions](https://github.com/bysxx/next14-ts-template-fullstack/tree/master/app/example/server-actions)
 - Soon...
