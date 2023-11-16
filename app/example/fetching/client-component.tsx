@@ -1,9 +1,8 @@
 'use client';
 
-import { getExample } from 'app/common/requests/example';
 import { useState } from 'react';
 
-export default function ClientComponent() {
+export default function ClientComponentExample() {
   const [count, setCount] = useState(0);
   const countUp = () => setCount(count + 1);
 
@@ -13,12 +12,6 @@ export default function ClientComponent() {
       <p className="text-center text-xl font-bold">Count: {count}</p>
       <button className="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700" onClick={countUp}>
         Count Up
-      </button>
-      <button
-        className="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700"
-        onClick={() => getExample().then((data) => alert(data.title))}
-      >
-        Get Request Test
       </button>
     </div>
   );

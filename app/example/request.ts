@@ -1,4 +1,4 @@
-import type { IExample } from '@interfaces/example';
+import type { IExample } from 'app/example/interfaces';
 
 export async function getExample() {
   const res = await fetch('/api/example');

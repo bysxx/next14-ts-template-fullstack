@@ -1,4 +1,4 @@
-import type { IExample } from '@interfaces/example';
+import type { IExample } from 'app/example/interfaces';
 import { NextResponse } from 'next/server';
 
 export function GET() {

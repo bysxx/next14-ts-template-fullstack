@@ -1,4 +1,4 @@
-import type { IExample } from '@interfaces/example';
+import type { IExample } from 'app/example/interfaces';
 import type { Model } from 'mongoose';
 import mongoose, { model } from 'mongoose';
 
