@@ -1,9 +1,10 @@
-import { FieldError } from 'react-hook-form'
+import { FieldError } from "react-hook-form";
+
 
 interface RHFControlledInputProps {
-  label: string
-  register: any
-  error: FieldError | undefined
+  label: string;
+  register: any;
+  error: FieldError | undefined;
 }
 
 export function RHFControlledInput({ label, register, error }: RHFControlledInputProps) {
@@ -21,13 +22,13 @@ export function RHFControlledInput({ label, register, error }: RHFControlledInpu
       />
       {error ? <span className="text-red-500 text-xs">{error.message}</span> : null}
     </label>
-  )
+  );
 }
 
-interface RHFControlledTextAreaProps {
-  label: string
-  register: any
-  error: FieldError | undefined
+interface RHFControlledTextAreaProps {  
+  label: string;
+  register: any;
+  error: FieldError | undefined;
 }
 
 export function RHFControlledTextArea({ label, register, error }: RHFControlledTextAreaProps) {
@@ -44,5 +45,5 @@ export function RHFControlledTextArea({ label, register, error }: RHFControlledT
       />
       {error ? <span className="text-red-500 text-xs">{error.message}</span> : null}
     </label>
-  )
+  );
 }
