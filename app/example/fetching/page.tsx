@@ -10,7 +10,6 @@ export default function ExamplePage() {
   return (
     <main className="flex min-h-screen flex-col items-center p-8">
       <Suspense fallback={<Loading />}>
-        {/* @ts-expect-error Async Server Component */}
         <FetchingComponent />
       </Suspense>
 
