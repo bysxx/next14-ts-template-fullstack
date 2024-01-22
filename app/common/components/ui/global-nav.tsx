@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { AiFillGithub } from 'react-icons/ai';
 
 function GlobalNav() {
   return (
@@ -16,7 +15,6 @@ function GlobalNav() {
           target="_blank"
           rel="noreferrer"
         >
-          <AiFillGithub />
           <span>Source Code</span>
         </a>
       </div>

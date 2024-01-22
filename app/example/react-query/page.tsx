@@ -3,7 +3,7 @@ import { Suspense } from 'react';
 
 import WaitingComponent from './wating-component';
 
-export const runtime = 'edge'; // 'nodejs' (default) | 'edge'
+export const revalidate = 0;
 
 export default function ReactQueryExample() {
   return (

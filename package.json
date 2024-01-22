@@ -24,8 +24,6 @@
     "@tanstack/react-query": "^5.17.15",
     "@tanstack/react-query-devtools": "^5.17.18",
     "@tanstack/react-query-next-experimental": "^5.17.15",
-    "autoprefixer": "^10.4.17",
-    "axios": "^1.6.5",
     "classnames": "^2.5.1",
     "mongoose": "^8.1.0",
     "next": "^14.0.4",
@@ -33,7 +31,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.49.3",
-    "react-icons": "^5.0.1",
     "tailwindcss": "^3.4.1",
     "zod": "^3.22.4",
     "zustand": "^4.4.7"
