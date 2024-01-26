@@ -11,7 +11,7 @@ describe('Navbar Test', () => {
       </Wrapper>,
     );
 
-    expect(await screen.findByText(/Next 13/)).toBeInTheDocument();
+    expect(await screen.findByText(/Next 14/)).toBeInTheDocument();
     expect(await screen.findByText(/Example/)).toBeInTheDocument();
   });
 });
