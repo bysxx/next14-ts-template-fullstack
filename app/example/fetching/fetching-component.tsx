@@ -1,10 +1,12 @@
-export async function getData() {
-  // eslint-disable-next-line
-  return await new Promise((resolve) => setTimeout(resolve, 1000)).then((_) => 'Success!');
-}
+import { getExample } from 'app/server/example/action';
 
 export default async function FetchingComponent() {
-  const data = await getData();
+  const data = await getExample();
 
-  return <div className="">{data}</div>;
+  return (
+    <div className="">
+      <h1>{data.title}</h1>
+      <span>{data.description}</span>
+    </div>
+  );
 }
