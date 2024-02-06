@@ -3,6 +3,10 @@
 - This template is a comprehensive starting point for building full-stack applications using Next.js 14, TypeScript, MongoDB, and other modern web technologies.
 - Designed for efficiency and best practices, this template includes several out-of-the-box features and examples to jumpstart your project.
 
+## Lighthouse Result
+
+<img width="1280" alt="image" src="https://github.com/bysxx/next14-ts-template-fullstack/assets/91772497/d9576596-37c4-4392-bc94-2a1bc7469bb1">
+
 ## Code With
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white)
