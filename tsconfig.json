@@ -39,14 +39,14 @@
       "@libs/*": ["app/common/libs/*"],
       "@stores/*": ["app/common/stores/*"],
       "@styles/*": ["app/common/styles/*"],
-      "@components/*": ["app/common/components/*"]
+      "@components/*": ["app/common/components/*"],
     },
     "plugins": [
       {
-        "name": "next"
-      }
-    ]
+        "name": "next",
+      },
+    ],
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["./out/**/*", "./node_modules/**/*"]
+  "exclude": ["./out/**/*", "./node_modules/**/*"],
 }
