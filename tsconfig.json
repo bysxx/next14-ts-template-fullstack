@@ -32,14 +32,13 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@api/*": ["app/api/*"],
-      "@requests/*": ["app/common/requests/*"],
-      "@hooks/*": ["app/common/hooks/*"],
-      "@interfaces/*": ["app/common/interfaces/*"],
-      "@libs/*": ["app/common/libs/*"],
-      "@stores/*": ["app/common/stores/*"],
-      "@styles/*": ["app/common/styles/*"],
-      "@components/*": ["app/common/components/*"],
+      "@requests/*": ["src/requests/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@interfaces/*": ["src/interfaces/*"],
+      "@libs/*": ["src/libs/*"],
+      "@stores/*": ["src/stores/*"],
+      "@styles/*": ["src/styles/*"],
+      "@components/*": ["src/components/*"],
     },
     "plugins": [
       {

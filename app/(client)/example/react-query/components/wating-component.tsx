@@ -17,7 +17,7 @@ function useWaitQuery(props: { wait: number }) {
   const query = useSuspenseQuery({
     queryKey: ['wait', props.wait],
     queryFn: async () => {
-      const url = `${baseUrl}/api/wait?wait=${props.wait}`;
+      const url = `${baseUrl}/server/example?wait=${props.wait}`;
 
       const res: string = await (
         await fetch(url, {
