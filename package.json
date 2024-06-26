@@ -26,10 +26,10 @@
     "@tanstack/react-query-next-experimental": "^5.29.2",
     "classnames": "^2.5.1",
     "mongoose": "^8.3.1",
-    "next": "^14.2.0",
+    "next": "^14.2.4",
     "postcss": "^8.4.38",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "tailwindcss": "^3.4.3",
     "zustand": "^4.5.2"
   },
@@ -45,7 +45,7 @@
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^18.0.0",
-    "eslint-config-next": "^14.2.0",
+    "eslint-config-next": "^14.2.4",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jest": "^28.2.0",
@@ -61,8 +61,7 @@
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "prettier": "^3.2.5",
-    "typescript": "^5.4.5",
-    "yarn-upgrade-all": "^0.7.2"
+    "typescript": "^5.4.5"
   },
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@4.3.1"
 }
