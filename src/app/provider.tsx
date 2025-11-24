@@ -18,7 +18,7 @@ export function Providers(props: { children: React.ReactNode }) {
             staleTime: 5 * 1000,
           },
         },
-      })
+      }),
   );
 
   return (

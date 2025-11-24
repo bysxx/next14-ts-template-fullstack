@@ -1,5 +1,5 @@
 import { MongoDBAdapter } from "@auth/mongodb-adapter";
-import { type NextAuthOptions, getServerSession } from "next-auth";
+import { getServerSession, type NextAuthOptions } from "next-auth";
 import KakaoProvider from "next-auth/providers/kakao";
 import client from "./client";
 

@@ -16,10 +16,7 @@ function GlobalNav() {
             </span>
           </Link>
           <div className="hidden md:flex gap-x-6 text-sm font-medium text-slate-600">
-            <Link
-              href="/example"
-              className="hover:text-indigo-600 transition-colors"
-            >
+            <Link href="/example" className="hover:text-indigo-600 transition-colors">
               Example
             </Link>
           </div>
@@ -39,9 +36,7 @@ function GlobalNav() {
 
           {session?.user ? (
             <div className="flex items-center gap-x-4">
-              <span className="text-sm font-medium text-slate-700 hidden sm:block">
-                {session.user.name}
-              </span>
+              <span className="text-sm font-medium text-slate-700 hidden sm:block">{session.user.name}</span>
               <button
                 type="button"
                 onClick={() => signOut()}

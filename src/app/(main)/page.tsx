@@ -21,8 +21,8 @@ export default function MainPage() {
             </span>
           </h1>
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            Minimal, clean, and ready for production. Optimized for developer
-            experience with the latest Next.js 15 features.
+            Minimal, clean, and ready for production. Optimized for developer experience with the latest Next.js 15
+            features.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <Link
@@ -45,36 +45,19 @@ export default function MainPage() {
 
       <div className="mx-auto max-w-7xl px-6 lg:px-8 pb-24">
         <div className="grid grid-cols-1 gap-y-16 gap-x-8 text-center lg:grid-cols-3">
-          <FeatureCard
-            title="Type Safe"
-            description="Built with strict TypeScript configuration for reliable code."
-          />
-          <FeatureCard
-            title="Fast & Modern"
-            description="Powered by Next.js 15 and Tailwind CSS 4 ready."
-          />
-          <FeatureCard
-            title="Scalable"
-            description="Designed with a clean folder structure for growth."
-          />
+          <FeatureCard title="Type Safe" description="Built with strict TypeScript configuration for reliable code." />
+          <FeatureCard title="Fast & Modern" description="Powered by Next.js 15 and Tailwind CSS 4 ready." />
+          <FeatureCard title="Scalable" description="Designed with a clean folder structure for growth." />
         </div>
       </div>
     </main>
   );
 }
 
-function FeatureCard({
-  title,
-  description,
-}: {
-  title: string;
-  description: string;
-}) {
+function FeatureCard({ title, description }: { title: string; description: string }) {
   return (
     <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-      <dt className="text-base leading-7 text-slate-600 font-semibold">
-        {title}
-      </dt>
+      <dt className="text-base leading-7 text-slate-600 font-semibold">{title}</dt>
       <dd className="order-first text-3xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
         {/* Placeholder icon or number could go here, simplified to just text style for now */}
         <div className="mb-2 inline-block h-2 w-12 rounded bg-indigo-600/20"></div>

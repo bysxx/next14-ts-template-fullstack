@@ -32,9 +32,7 @@ export default function ExamplePage() {
   return (
     <main className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
       <div className="mx-auto max-w-2xl text-center">
-        <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-          Example Components
-        </h1>
+        <h1 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Example Components</h1>
         <p className="mt-2 text-lg leading-8 text-slate-600">
           Explore various features and implementation patterns of Next.js 15.
         </p>
@@ -51,15 +49,10 @@ export default function ExamplePage() {
               <h3 className="text-lg font-semibold leading-7 text-slate-900 group-hover:text-indigo-600 transition-colors">
                 {example.title}
               </h3>
-              <p className="mt-2 flex-auto text-sm leading-6 text-slate-600">
-                {example.description}
-              </p>
+              <p className="mt-2 flex-auto text-sm leading-6 text-slate-600">{example.description}</p>
               <p className="mt-6 flex items-center gap-x-1 text-sm font-semibold leading-6 text-indigo-600">
                 View demo
-                <span
-                  aria-hidden="true"
-                  className="block transition-transform group-hover:translate-x-1"
-                >
+                <span aria-hidden="true" className="block transition-transform group-hover:translate-x-1">
                   →
                 </span>
               </p>
