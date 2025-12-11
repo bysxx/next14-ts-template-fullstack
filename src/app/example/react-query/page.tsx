@@ -3,8 +3,6 @@ import { Suspense } from "react";
 
 import WaitingComponent from "./components/wating-component";
 
-export const revalidate = 0;
-
 export default function ReactQueryExample() {
   return (
     <main>

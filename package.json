@@ -1,9 +1,6 @@
 {
   "name": "next-ts-template-fullstack-bysxx",
   "version": "0.1.0",
-  "engines": {
-    "node": ">=18.0.0"
-  },
   "description": "Fullstack Next.js + TypeScript Template",
   "author": "bysxx <0415white@gmail.com>",
   "repository": {
